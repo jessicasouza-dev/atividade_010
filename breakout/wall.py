@@ -41,11 +41,11 @@ class Wall:
                 brick_y = (i * (30 + 20)) + self.y
                 if 0 <= i < 2:
                     brick_color = COLOR_RED
-                    brick_points = 1
+                    brick_points = 7
                     brick_speed = 4
                 elif 2 <= i < 4:
                     brick_color = COLOR_ORANGE
-                    brick_points = 2
+                    brick_points = 5
                     brick_speed = 3
                 elif 4 <= i < 6:
                     brick_color = COLOR_GREEN

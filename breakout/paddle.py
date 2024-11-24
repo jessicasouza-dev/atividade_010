@@ -6,10 +6,10 @@ class Paddle:
         self.x = 0
         self.y = 0
         self.direction = "neutral"
-        self.speed = 5
+        self.speed = 15
 
     def consult_paddle(self):
-        print(f"Posição do Paddle: ({self.x + self.width/2}, {self.y + self.height/2})")
+        print(f"Posição do Paddle: ({self.x }, {self.y})")
         print(f"Direção do Paddle: {self.direction}")
 
     def paddle_movement(self):
@@ -22,7 +22,7 @@ class Paddle:
         elif direction == 2:
             self.direction = "left"
         else:
-            while direction != 1 or direction !=2:
+            while direction != 1 and direction !=2:
                 print("\nResposta inválida!")
                 print("\n1 - Direita")
                 print("\n2 - Esquerda")
