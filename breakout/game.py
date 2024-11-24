@@ -6,7 +6,7 @@ from wall import Wall
 
 hud = HUD()
 ball = Ball(hud)
-wall = Wall(0, 700)
+wall = Wall(10, 10)
 paddle = Paddle()
 game_width = 1000
 game_height = 1000
